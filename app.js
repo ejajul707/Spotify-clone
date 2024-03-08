@@ -129,7 +129,7 @@ async function getSong(folder) {
 }
 
 async function displayAlbums() {
-    const SongAPI = `https://ejajul707.github.io/Spotify-clone/songs/`;
+    const SongAPI = `./songs/`;
     let fetchSong = await fetch(SongAPI);
     let response = await fetchSong.text();
     let div = document.createElement("div");
@@ -143,12 +143,12 @@ async function displayAlbums() {
 
         if (i.href.includes("/songs/")) {
             let folder = i.href.split("/").slice(-1)[0];
-            const folderAPI = `https://ejajul707.github.io/Spotify-clone/songs/${folder}/info.json`;
+            const folderAPI = `./songs/${folder}/info.json`;
             let fetchFolder = await fetch(folderAPI);
             let folderResponse = await fetchFolder.json();
             
             card.innerHTML = card.innerHTML + `<div class="card" data-folder="${folder}">
-                <img src="/songs/${folder}/cover.jpg" alt="">
+                <img src="./songs/${folder}/cover.jpg" alt="">
                 <div class="playImg">
                     <span class="material-symbols-outlined">
                         play_arrow
@@ -178,7 +178,7 @@ displayAlbums();
 
 async function main() {
 
-    await getSong("https://ejajul707.github.io/Spotify-clone/songs/ncs")
+    await getSong("songs/ncs")
     playMusic(songs[0], true)
 
     
