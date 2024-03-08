@@ -26,9 +26,17 @@ This repository contains a web application that serves as a clone of Spotify. Us
 
 ### Contributions:
 Contributions and feedback are welcome! Feel free to submit pull requests or raise issues for any improvements or bug fixes.
-![Screenshot 2024-03-06 122029](https://github.com/ejajul707/Spotify-clone/assets/93284062/721034db-764b-460d-b83c-b778f56e374c)!
 
-[Screenshot 2024-03-06 122234](https://github.com/ejajul707/Spotify-clone/assets/93284062/027147fb-6862-484c-957f-a5e1074faf44)
+
+
+
+![Screenshot 2024-03-06 122029](https://github.com/ejajul707/Spotify-clone/assets/93284062/721034db-764b-460d-b83c-b778f56e374c)
+
+
+
+![Screenshot 2024-03-06 122234](https://github.com/ejajul707/Spotify-clone/assets/93284062/027147fb-6862-484c-957f-a5e1074faf44)
+
+
 
 ![Screenshot 2024-03-06 030133](https://github.com/ejajul707/Spotify-clone/assets/93284062/be9f155c-d42b-4b79-8e03-ea795dc446af)
 
